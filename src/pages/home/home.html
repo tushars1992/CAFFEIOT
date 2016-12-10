@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <button ion-button menuToggle>
+             <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>
+            CaffeIOT
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="logOut()">
+        <ion-icon name="log-out"></ion-icon>
+        </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="home-container">
+    <div class="chart-div">
+        <canvas #canvas>
+              
+        </canvas>
+
+
+    </div>
+    <div class="home-table">
+        <ion-list>
+            <ion-item>
+                <h2>Caffeine</h2>
+            </ion-item>
+            <ion-item>
+                <h2>Calories</h2>
+            </ion-item>
+            <ion-item>
+                <h2>Protein</h2>
+            </ion-item>
+            <ion-item>
+                <h2>Carbohydrates</h2>
+            </ion-item>
+        </ion-list>
+
+    </div>
+</ion-content>
