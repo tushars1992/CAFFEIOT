@@ -22,7 +22,7 @@ export class Orders {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
     //this.initializeItems();
-     
+     console.log('Hi');
     this.initializeItems();
   }
 
